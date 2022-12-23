@@ -16,6 +16,12 @@
   animation-timing-function: ease-in-out;
 }
 
+.bg-background {
+  background-image: url(/images/bg-small.png);
+  background-position: center;
+  background-size: cover;
+}
+
 .open-door {
   transform: rotateY(90deg) !important;
 }
