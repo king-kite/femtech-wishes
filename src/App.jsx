@@ -1,7 +1,12 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
+import santaMusic from './santa.mp3'
 
 function App() {
   const [open, setOpen] = React.useState(false);
+  const [audioElement, setAudioElement] = React.useState(null)
+
+  console.log({ audioElement })
 
   return (
     <div className="relative">
@@ -60,6 +65,19 @@ function App() {
           )}
         </div>
       </div>
+      {open && (
+        <ReactAudioPlayer
+          ref={(element) => {
+            setAudioElement(element)
+          }}
+          src={santaMusic}
+          autoPlay
+          loop
+        />
+      )}
+      {/*<audio autoplay={true} loop src="/santa.mp3">
+        <source src={santaMusic} loop autoplay={true} type="audio/mpeg" />
+      </audio>*/}
     </div>
   )
 }
