@@ -7,9 +7,24 @@ function App() {
     <div className="relative">
       <div className="bg-gray-100 max-w-[500px] mx-auto relative">
         <div className="bg-background bg-white h-full min-h-[100vh] px-4 py-8 shadow-lg">
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center justify-center">
             <div className="w-[250px]">
               <img className="h-full w-full" src="/images/logo.svg" alt="femtech" />
+            </div>
+            <h5 className="font-extrabold text-lg text-blue-900 text-center uppercase">
+              information technology
+            </h5>
+            <h1 className="bg-clip-text bg-gradient-to-r from-green-800 via-red-600 to-green-800 font-bold my-3 text-center text-transparent text-2xl uppercase">
+              Wishes You
+            </h1>
+            <div className="flex justify-center">
+              <div className="h-[250px] rounded-full w-[250px]">
+                <img 
+                  src="/images/merry-christmas.jpg"
+                  className="h-full rounded-full w-full"                 
+                  alt="merry christmas" 
+                />
+              </div>
             </div>
           </div>
         </div>
