@@ -13,7 +13,7 @@ function App() {
   }, [open, audioRef])
 
   return (
-    <div className="relative">
+    <div className="wrapper relative">
       <div className="bg-gray-100 max-w-[500px] mx-auto relative">
         <div className="bg-background bg-white flex flex-col items-center justify-center h-full min-h-[100vh] px-4 py-8 shadow-lg">
           <div className="flex flex-col items-center justify-center">

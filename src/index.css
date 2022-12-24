@@ -22,6 +22,12 @@
   background-size: cover;
 }
 
+.wrapper {
+  background-image: url('/images/merry-background-christmas-fir-branch.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 .open-door {
   transform: rotateY(90deg) !important;
 }
