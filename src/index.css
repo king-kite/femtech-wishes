@@ -25,7 +25,7 @@
 .wrapper {
   background-image: url('/images/merry-background-christmas-fir-branch.jpg');
   background-position: center;
-  background-size: container;
+  background-size: contain;
   background-repeat: repeat;
 }
 
